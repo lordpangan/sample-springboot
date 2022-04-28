@@ -9,7 +9,7 @@ public class HelloWorldCtrl {
     @RequestMapping("/")
     public String index() {
         String prefix = System.getenv().getOrDefault("ENV_PREFIX", "Blank");
-        return "<h1 style='background-color:salmon;width: 100%;height: 100%;text-align: center;'> 'Greetings from "+prefix+"' </h1>";
+        return "<h1 style='background-color:gold;width: 100%;height: 100%;text-align: center;'> 'Greetings from "+prefix+"' </h1>";
     }
 
 }
